@@ -12,8 +12,10 @@ struct FrameworkListView: View {
     
     let layout: [GridItem] = [
         GridItem(.flexible()),
-        GridItem(.flexible()),
-        GridItem(.flexible()),
+//        GridItem(.flexible()),
+//        GridItem(.flexible()),
+        GridItem(.fixed(30)),
+        GridItem(.adaptive(minimum: 40)),
     ]
     
     var body: some View {
