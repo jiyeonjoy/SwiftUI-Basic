@@ -12,6 +12,7 @@ struct SwiftUI_BasicApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.dark) // 다크모드로 세팅 !!
         }
     }
 }

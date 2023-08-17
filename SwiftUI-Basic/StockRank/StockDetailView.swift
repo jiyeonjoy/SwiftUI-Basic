@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct StockDetailView: View {
-    var stock: StockModel
+    @Binding var stock: StockModel // binding을 써워야 state 데이터를 참조하는 것임. 안써주면 데이터 복사하는 것..데이터를 하나로 봐야되기 때문에 binding 써주는 게 좋음.
     
     var body: some View {
         VStack(spacing: 40) {
@@ -27,6 +27,6 @@ struct StockDetailView: View {
 
 struct StockDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        StockDetailView(stock: StockModel.list[0])
+        StockDetailView(stock: .constant(StockModel.list[0]))
     }
 }
