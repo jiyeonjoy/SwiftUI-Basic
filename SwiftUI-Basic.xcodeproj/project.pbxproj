@@ -104,10 +104,7 @@
 			children = (
 				DAEC384F2A8DE3C4008479DF /* SwiftUI_BasicApp.swift */,
 				DAEC38512A8DE3C4008479DF /* ContentView.swift */,
-				DAEC387F2A8DED1C008479DF /* StackView.swift */,
-				DAEC38792A8DE601008479DF /* TextView.swift */,
-				DAEC387B2A8DE610008479DF /* ButtonView.swift */,
-				DAEC387D2A8DE61E008479DF /* ImageView.swift */,
+				DAEC38812A8DED7A008479DF /* Basic01 */,
 				DAEC38532A8DE3C5008479DF /* Assets.xcassets */,
 				DAEC38552A8DE3C5008479DF /* Preview Content */,
 			);
@@ -137,6 +134,17 @@
 				DAEC386C2A8DE3C5008479DF /* SwiftUI_BasicUITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI-BasicUITests";
+			sourceTree = "<group>";
+		};
+		DAEC38812A8DED7A008479DF /* Basic01 */ = {
+			isa = PBXGroup;
+			children = (
+				DAEC387F2A8DED1C008479DF /* StackView.swift */,
+				DAEC38792A8DE601008479DF /* TextView.swift */,
+				DAEC387B2A8DE610008479DF /* ButtonView.swift */,
+				DAEC387D2A8DE61E008479DF /* ImageView.swift */,
+			);
+			path = Basic01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
