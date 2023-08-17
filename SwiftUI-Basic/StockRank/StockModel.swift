@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Identifiable 이 프로토콜 준수 안하면 리스트에 id 넣어줘야 됨.
 struct StockModel: Hashable, Identifiable {
     var id: String {
         return name
