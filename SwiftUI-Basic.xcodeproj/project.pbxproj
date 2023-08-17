@@ -36,6 +36,7 @@
 		DAEC38B62A8E099B008479DF /* FrameworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC38B52A8E099B008479DF /* FrameworkListView.swift */; };
 		DAEC38B82A8E09C1008479DF /* FrameworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC38B72A8E09C1008479DF /* FrameworkCell.swift */; };
 		DAEC38BA2A8E09D1008479DF /* FrameworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC38B92A8E09D1008479DF /* FrameworkData.swift */; };
+		DAEC38D72A8E1573008479DF /* StockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC38D62A8E1573008479DF /* StockDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		DAEC38B52A8E099B008479DF /* FrameworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListView.swift; sourceTree = "<group>"; };
 		DAEC38B72A8E09C1008479DF /* FrameworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkCell.swift; sourceTree = "<group>"; };
 		DAEC38B92A8E09D1008479DF /* FrameworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkData.swift; sourceTree = "<group>"; };
+		DAEC38D62A8E1573008479DF /* StockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +295,7 @@
 				DAEC38AE2A8DF5CC008479DF /* StockModel.swift */,
 				DAEC38B02A8DF5D7008479DF /* StockRankView.swift */,
 				DAEC38B22A8DF5E7008479DF /* StockRankRow.swift */,
+				DAEC38D62A8E1573008479DF /* StockDetailView.swift */,
 			);
 			path = StockRank;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 				DAEC38502A8DE3C4008479DF /* SwiftUI_BasicApp.swift in Sources */,
 				DAEC38B12A8DF5D7008479DF /* StockRankView.swift in Sources */,
 				DAEC38BA2A8E09D1008479DF /* FrameworkData.swift in Sources */,
+				DAEC38D72A8E1573008479DF /* StockDetailView.swift in Sources */,
 				DAEC38802A8DED1C008479DF /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
