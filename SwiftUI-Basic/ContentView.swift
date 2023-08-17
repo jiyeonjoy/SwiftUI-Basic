@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        PlayerView(episode: Episode.list[0])
+        SymbolRollerView()
     }
 }
 
