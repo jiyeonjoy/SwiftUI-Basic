@@ -17,6 +17,7 @@
 		DAEC387A2A8DE601008479DF /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC38792A8DE601008479DF /* TextView.swift */; };
 		DAEC387C2A8DE610008479DF /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC387B2A8DE610008479DF /* ButtonView.swift */; };
 		DAEC387E2A8DE61E008479DF /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC387D2A8DE61E008479DF /* ImageView.swift */; };
+		DAEC38802A8DED1C008479DF /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC387F2A8DED1C008479DF /* StackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		DAEC38792A8DE601008479DF /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		DAEC387B2A8DE610008479DF /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		DAEC387D2A8DE61E008479DF /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		DAEC387F2A8DED1C008479DF /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				DAEC384F2A8DE3C4008479DF /* SwiftUI_BasicApp.swift */,
 				DAEC38512A8DE3C4008479DF /* ContentView.swift */,
+				DAEC387F2A8DED1C008479DF /* StackView.swift */,
 				DAEC38792A8DE601008479DF /* TextView.swift */,
 				DAEC387B2A8DE610008479DF /* ButtonView.swift */,
 				DAEC387D2A8DE61E008479DF /* ImageView.swift */,
@@ -271,6 +274,7 @@
 				DAEC38522A8DE3C4008479DF /* ContentView.swift in Sources */,
 				DAEC387C2A8DE610008479DF /* ButtonView.swift in Sources */,
 				DAEC38502A8DE3C4008479DF /* SwiftUI_BasicApp.swift in Sources */,
+				DAEC38802A8DED1C008479DF /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
