@@ -14,6 +14,9 @@
 		DAEC38612A8DE3C5008479DF /* SwiftUI_BasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC38602A8DE3C5008479DF /* SwiftUI_BasicTests.swift */; };
 		DAEC386B2A8DE3C5008479DF /* SwiftUI_BasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC386A2A8DE3C5008479DF /* SwiftUI_BasicUITests.swift */; };
 		DAEC386D2A8DE3C5008479DF /* SwiftUI_BasicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC386C2A8DE3C5008479DF /* SwiftUI_BasicUITestsLaunchTests.swift */; };
+		DAEC387A2A8DE601008479DF /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC38792A8DE601008479DF /* TextView.swift */; };
+		DAEC387C2A8DE610008479DF /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC387B2A8DE610008479DF /* ButtonView.swift */; };
+		DAEC387E2A8DE61E008479DF /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC387D2A8DE61E008479DF /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		DAEC38662A8DE3C5008479DF /* SwiftUI-BasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-BasicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEC386A2A8DE3C5008479DF /* SwiftUI_BasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicUITests.swift; sourceTree = "<group>"; };
 		DAEC386C2A8DE3C5008479DF /* SwiftUI_BasicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAEC38792A8DE601008479DF /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		DAEC387B2A8DE610008479DF /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		DAEC387D2A8DE61E008479DF /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				DAEC384F2A8DE3C4008479DF /* SwiftUI_BasicApp.swift */,
 				DAEC38512A8DE3C4008479DF /* ContentView.swift */,
+				DAEC38792A8DE601008479DF /* TextView.swift */,
+				DAEC387B2A8DE610008479DF /* ButtonView.swift */,
+				DAEC387D2A8DE61E008479DF /* ImageView.swift */,
 				DAEC38532A8DE3C5008479DF /* Assets.xcassets */,
 				DAEC38552A8DE3C5008479DF /* Preview Content */,
 			);
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEC387E2A8DE61E008479DF /* ImageView.swift in Sources */,
+				DAEC387A2A8DE601008479DF /* TextView.swift in Sources */,
 				DAEC38522A8DE3C4008479DF /* ContentView.swift in Sources */,
+				DAEC387C2A8DE610008479DF /* ButtonView.swift in Sources */,
 				DAEC38502A8DE3C4008479DF /* SwiftUI_BasicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
