@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var userProfile = UserProfileSettings()
+
     var body: some View {
-        StockRankView()
+        FirstView().environmentObject(userProfile)
     }
 }
 

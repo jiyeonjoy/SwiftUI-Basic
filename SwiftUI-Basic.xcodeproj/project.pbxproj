@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		DAB9090A2A8F07FF00393BAF /* StockRankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB909092A8F07FF00393BAF /* StockRankViewModel.swift */; };
+		DAB909102A8F0CCE00393BAF /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB9090F2A8F0CCE00393BAF /* FirstView.swift */; };
+		DAB909122A8F0CE700393BAF /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB909112A8F0CE700393BAF /* SecondView.swift */; };
+		DAB909142A8F0CF000393BAF /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB909132A8F0CF000393BAF /* ThirdView.swift */; };
+		DAB909162A8F0D1F00393BAF /* UserProfileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB909152A8F0D1F00393BAF /* UserProfileSettings.swift */; };
 		DAEC38502A8DE3C4008479DF /* SwiftUI_BasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC384F2A8DE3C4008479DF /* SwiftUI_BasicApp.swift */; };
 		DAEC38522A8DE3C4008479DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC38512A8DE3C4008479DF /* ContentView.swift */; };
 		DAEC38542A8DE3C5008479DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEC38532A8DE3C5008479DF /* Assets.xcassets */; };
@@ -80,6 +84,10 @@
 
 /* Begin PBXFileReference section */
 		DAB909092A8F07FF00393BAF /* StockRankViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankViewModel.swift; sourceTree = "<group>"; };
+		DAB9090F2A8F0CCE00393BAF /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		DAB909112A8F0CE700393BAF /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		DAB909132A8F0CF000393BAF /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		DAB909152A8F0D1F00393BAF /* UserProfileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileSettings.swift; sourceTree = "<group>"; };
 		DAEC384C2A8DE3C4008479DF /* SwiftUI-Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEC384F2A8DE3C4008479DF /* SwiftUI_BasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicApp.swift; sourceTree = "<group>"; };
 		DAEC38512A8DE3C4008479DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -141,6 +149,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DAB9090E2A8F0CA200393BAF /* EnvironmentObjTest */ = {
+			isa = PBXGroup;
+			children = (
+				DAB9090F2A8F0CCE00393BAF /* FirstView.swift */,
+				DAB909112A8F0CE700393BAF /* SecondView.swift */,
+				DAB909132A8F0CF000393BAF /* ThirdView.swift */,
+				DAB909152A8F0D1F00393BAF /* UserProfileSettings.swift */,
+			);
+			path = EnvironmentObjTest;
+			sourceTree = "<group>";
+		};
 		DAEC38432A8DE3C4008479DF = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +190,7 @@
 				DAEC38AA2A8DF1B8008479DF /* SymbolRoller */,
 				DAEC38AD2A8DF533008479DF /* StockRank */,
 				DAEC38B42A8E0979008479DF /* AppleFramework */,
+				DAB9090E2A8F0CA200393BAF /* EnvironmentObjTest */,
 				DAEC38532A8DE3C5008479DF /* Assets.xcassets */,
 				DAEC38552A8DE3C5008479DF /* Preview Content */,
 			);
@@ -475,17 +495,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB909122A8F0CE700393BAF /* SecondView.swift in Sources */,
 				DAEC387E2A8DE61E008479DF /* ImageView.swift in Sources */,
+				DAB909102A8F0CCE00393BAF /* FirstView.swift in Sources */,
 				DAEC388A2A8DEE06008479DF /* PlayButton.swift in Sources */,
 				DAEC38B62A8E099B008479DF /* FrameworkListView.swift in Sources */,
 				DAEC387A2A8DE601008479DF /* TextView.swift in Sources */,
 				DAEC38842A8DEDC7008479DF /* Episode.swift in Sources */,
 				DAEC38862A8DEDDA008479DF /* PlayerView.swift in Sources */,
+				DAB909142A8F0CF000393BAF /* ThirdView.swift in Sources */,
 				DAEC38522A8DE3C4008479DF /* ContentView.swift in Sources */,
 				DAEC38AC2A8DF1D7008479DF /* SymbolRollerView.swift in Sources */,
 				DAEC387C2A8DE610008479DF /* ButtonView.swift in Sources */,
 				DAEC38AF2A8DF5CC008479DF /* StockModel.swift in Sources */,
 				DAEC38B32A8DF5E7008479DF /* StockRankRow.swift in Sources */,
+				DAB909162A8F0D1F00393BAF /* UserProfileSettings.swift in Sources */,
 				DAEC38882A8DEDF3008479DF /* PlayingStatusView.swift in Sources */,
 				DAEC38B82A8E09C1008479DF /* FrameworkCell.swift in Sources */,
 				DAEC38502A8DE3C4008479DF /* SwiftUI_BasicApp.swift in Sources */,
