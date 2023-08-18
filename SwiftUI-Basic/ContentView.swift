@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var userProfile = UserProfileSettings()
+//    @StateObject var userProfile = UserProfileSettings()
 
     var body: some View {
-        FirstView().environmentObject(userProfile)
+//        FirstView().environmentObject(userProfile)
+        FrameworkListView()
     }
 }
 

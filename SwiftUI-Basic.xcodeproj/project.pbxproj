@@ -12,6 +12,10 @@
 		DAB909122A8F0CE700393BAF /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB909112A8F0CE700393BAF /* SecondView.swift */; };
 		DAB909142A8F0CF000393BAF /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB909132A8F0CF000393BAF /* ThirdView.swift */; };
 		DAB909162A8F0D1F00393BAF /* UserProfileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB909152A8F0D1F00393BAF /* UserProfileSettings.swift */; };
+		DAB9091B2A8F258300393BAF /* FrameworkListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB9091A2A8F258300393BAF /* FrameworkListViewModel.swift */; };
+		DAB9091D2A8F25A100393BAF /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB9091C2A8F25A100393BAF /* FrameworkDetailView.swift */; };
+		DAB9091F2A8F25B100393BAF /* FrameworkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB9091E2A8F25B100393BAF /* FrameworkDetailViewModel.swift */; };
+		DAB909212A8F25C600393BAF /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB909202A8F25C600393BAF /* SafariView.swift */; };
 		DAEC38502A8DE3C4008479DF /* SwiftUI_BasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC384F2A8DE3C4008479DF /* SwiftUI_BasicApp.swift */; };
 		DAEC38522A8DE3C4008479DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC38512A8DE3C4008479DF /* ContentView.swift */; };
 		DAEC38542A8DE3C5008479DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEC38532A8DE3C5008479DF /* Assets.xcassets */; };
@@ -88,6 +92,10 @@
 		DAB909112A8F0CE700393BAF /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		DAB909132A8F0CF000393BAF /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		DAB909152A8F0D1F00393BAF /* UserProfileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileSettings.swift; sourceTree = "<group>"; };
+		DAB9091A2A8F258300393BAF /* FrameworkListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListViewModel.swift; sourceTree = "<group>"; };
+		DAB9091C2A8F25A100393BAF /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		DAB9091E2A8F25B100393BAF /* FrameworkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewModel.swift; sourceTree = "<group>"; };
+		DAB909202A8F25C600393BAF /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		DAEC384C2A8DE3C4008479DF /* SwiftUI-Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEC384F2A8DE3C4008479DF /* SwiftUI_BasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicApp.swift; sourceTree = "<group>"; };
 		DAEC38512A8DE3C4008479DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -158,6 +166,33 @@
 				DAB909152A8F0D1F00393BAF /* UserProfileSettings.swift */,
 			);
 			path = EnvironmentObjTest;
+			sourceTree = "<group>";
+		};
+		DAB909172A8F253D00393BAF /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				DAEC38B52A8E099B008479DF /* FrameworkListView.swift */,
+				DAB9091A2A8F258300393BAF /* FrameworkListViewModel.swift */,
+				DAEC38B72A8E09C1008479DF /* FrameworkCell.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		DAB909182A8F255000393BAF /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				DAB9091C2A8F25A100393BAF /* FrameworkDetailView.swift */,
+				DAB9091E2A8F25B100393BAF /* FrameworkDetailViewModel.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		DAB909192A8F255F00393BAF /* SafariView */ = {
+			isa = PBXGroup;
+			children = (
+				DAB909202A8F25C600393BAF /* SafariView.swift */,
+			);
+			path = SafariView;
 			sourceTree = "<group>";
 		};
 		DAEC38432A8DE3C4008479DF = {
@@ -326,8 +361,9 @@
 		DAEC38B42A8E0979008479DF /* AppleFramework */ = {
 			isa = PBXGroup;
 			children = (
-				DAEC38B52A8E099B008479DF /* FrameworkListView.swift */,
-				DAEC38B72A8E09C1008479DF /* FrameworkCell.swift */,
+				DAB909172A8F253D00393BAF /* ListView */,
+				DAB909182A8F255000393BAF /* DetailView */,
+				DAB909192A8F255F00393BAF /* SafariView */,
 				DAEC38B92A8E09D1008479DF /* FrameworkData.swift */,
 			);
 			path = AppleFramework;
@@ -496,10 +532,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAB909122A8F0CE700393BAF /* SecondView.swift in Sources */,
+				DAB909212A8F25C600393BAF /* SafariView.swift in Sources */,
 				DAEC387E2A8DE61E008479DF /* ImageView.swift in Sources */,
 				DAB909102A8F0CCE00393BAF /* FirstView.swift in Sources */,
 				DAEC388A2A8DEE06008479DF /* PlayButton.swift in Sources */,
+				DAB9091F2A8F25B100393BAF /* FrameworkDetailViewModel.swift in Sources */,
 				DAEC38B62A8E099B008479DF /* FrameworkListView.swift in Sources */,
+				DAB9091B2A8F258300393BAF /* FrameworkListViewModel.swift in Sources */,
 				DAEC387A2A8DE601008479DF /* TextView.swift in Sources */,
 				DAEC38842A8DEDC7008479DF /* Episode.swift in Sources */,
 				DAEC38862A8DEDDA008479DF /* PlayerView.swift in Sources */,
@@ -515,6 +554,7 @@
 				DAEC38502A8DE3C4008479DF /* SwiftUI_BasicApp.swift in Sources */,
 				DAEC38B12A8DF5D7008479DF /* StockRankView.swift in Sources */,
 				DAEC38BA2A8E09D1008479DF /* FrameworkData.swift in Sources */,
+				DAB9091D2A8F25A100393BAF /* FrameworkDetailView.swift in Sources */,
 				DAEC38D72A8E1573008479DF /* StockDetailView.swift in Sources */,
 				DAEC38802A8DED1C008479DF /* StackView.swift in Sources */,
 				DAB9090A2A8F07FF00393BAF /* StockRankViewModel.swift in Sources */,
